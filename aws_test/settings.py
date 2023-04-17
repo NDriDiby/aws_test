@@ -28,9 +28,9 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 
-# ALLOWED_HOSTS = [
-#     'django-env.eba-d3yg7pfd.us-west-2.elasticbeanstalk.com',  # make sure to replace it with your own EB CNAME
-# ]
+ALLOWED_HOSTS = [
+    'django-testing-env.eba-bddddi6d.us-west-2.elasticbeanstalk.com',  # make sure to replace it with your own EB CNAME
+]
 
 
 # Application definition
